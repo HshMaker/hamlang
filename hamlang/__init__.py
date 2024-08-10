@@ -1,0 +1,1 @@
+from .hamlang import HamLang
