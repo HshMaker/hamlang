@@ -20,6 +20,10 @@ class HamLang:
             length = len(varmatches)
 
             for i in range(0, length):
+
+#TODO '흐'나 '후'의 수가 0이면 버그남. 자료형이 꼬임. 고쳐
+
+
                 if (self.strData[varmatches[i].count('흐')]):
                     test = self.varToStr(varmatches[i]) # {흐흠}의 값
                     if boolresult == False:
